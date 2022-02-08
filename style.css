@@ -1,0 +1,62 @@
+.container{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  text-align: start;
+}
+
+.WriteTextContainer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+#addCard{
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#cardContainer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 7px;
+  margin: auto;
+  margin-top: 20px;
+  width: 90%;
+  flex-wrap: wrap;
+
+
+
+}
+
+.cardcard {
+  height:220px;
+  width: 200px;
+  margin: 15px;
+  background-color: whitesmoke;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 350);
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+
+}
+
+.text-front {
+
+}
+
+.text-back {
+  background-color: rgb(224, 152, 152);
+}
+
+.button-flip {
+  margin: auto;
+  margin-bottom: 30px;
+}
